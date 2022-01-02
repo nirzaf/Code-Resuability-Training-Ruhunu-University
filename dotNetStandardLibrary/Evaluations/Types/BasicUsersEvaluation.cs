@@ -4,8 +4,8 @@ using System.Text;
 
 namespace dotNetStandardLibrary.Evaluations.Types
 {
-    public class BasicUsersEvaluation: Evaluation
-    { 
+    public class BasicUsersEvaluation : Evaluation
+    {
         public override double CalculateGrade()
         {
             return Grade;

@@ -1,7 +1,7 @@
-﻿using dotNetStandardLibrary;
+﻿using System;
+using dotNetStandardLibrary;
 using dotNetStandardLibrary.Evaluations.Content;
 using dotNetStandardLibrary.Evaluations.Types;
-using System;
 
 var buEvaluation = new BasicUsersEvaluation
 {

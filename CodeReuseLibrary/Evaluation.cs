@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeReuseLibrary
+﻿namespace CodeReuseLibrary
 {
     public class Evaluation
     {

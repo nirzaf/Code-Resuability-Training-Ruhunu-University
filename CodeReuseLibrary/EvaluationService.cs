@@ -3,7 +3,10 @@
     public class EvaluationService
     {
         public IContentEvaluated Content { get; set; }
-        public int CalculateEvaluationAverage() =>
-            0;
+
+        public int CalculateEvaluationAverage()
+        {
+            return 0;
+        }
     }
 }

@@ -6,6 +6,6 @@ namespace dotNetStandardLibrary.Evaluations.Content
 {
     public class Package : IContentEvaluated
     {
-        public List<Evaluation> Evaluations { get ; set ; }
+        public List<Evaluation> Evaluations { get; set; }
     }
 }

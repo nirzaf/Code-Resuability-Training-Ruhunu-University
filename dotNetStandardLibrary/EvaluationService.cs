@@ -34,16 +34,20 @@ namespace dotNetStandardLibrary
         /// This method is just used to get the type name of the generic one defined
         /// </summary>
         /// <returns></returns>
-        public string GetTypeOfEvaluation() =>
-            typeof(T).FullName;
+        public string GetTypeOfEvaluation()
+        {
+            return typeof(T).FullName;
+        }
 
         /// <summary>
         /// No matter the Evaluation, the calculation will always get values from the method CalculateGrade
         /// </summary>
         /// <returns>The average of the grade from Evaluations</returns>
-        public double CalculateEvaluationAverage() =>
-            Content.Evaluations
+        public double CalculateEvaluationAverage()
+        {
+            return Content.Evaluations
                 .Select(x => x.CalculateGrade())
                 .Average();
+        }
     }
 }
